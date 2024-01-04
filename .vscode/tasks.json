@@ -1,0 +1,63 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build 2022",
+            "type": "shell",
+            "command": "bazel build //y2022:y2022.deploy --platforms=@bazelrio//platforms/roborio",
+            "problemMatcher": [],
+            "group": "build",
+        },
+        {
+            "label": "deploy 2022",
+            "type": "shell",
+            "command": "bazel run //y2022:y2022.deploy --platforms=@bazelrio//platforms/roborio",
+            "problemMatcher": [],
+            "group": "build",
+        },
+        {
+            "label": "run (desktop) 2022",
+            "type": "shell",
+            "command": "bazel run //y2022:y2022.simulation.gui",
+            "problemMatcher": [],
+            "group": "build",
+        },
+        {
+            "label": "build 2023",
+            "type": "shell",
+            "command": "bazel build //y2023:y2023.deploy --platforms=@bazelrio//platforms/roborio",
+            "problemMatcher": [],
+            "group": "build",
+        },
+        {
+            "label": "deploy 2023",
+            "type": "shell",
+            "command": "bazel run //y2023:y2023.deploy --platforms=@bazelrio//platforms/roborio",
+            "problemMatcher": [],
+            "group": "build",
+        },
+        {
+            "label": "run (desktop) 2023",
+            "type": "shell",
+            "command": "bazel run //y2023:y2023.simulation.gui",
+            "problemMatcher": [],
+            "group": "build",
+        },
+        {
+            "label": "test",
+            "type": "shell",
+            "command": "bazel test --test_output=all //...",
+            "problemMatcher": [],
+            "group": "test",
+        },
+        {
+            "label": "refresh c++ autocomplete",
+            "type": "shell",
+            "command": "bazel run @hedron_compile_commands//:refresh_all",
+            "problemMatcher": [],
+            "group": "none",
+        },
+    ]
+}

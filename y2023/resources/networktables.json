@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "/Preferences/robot_container/init_pivot",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/robot_container/init_telescope",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/robot_container/init_conveyor",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/robot_container/init_gripper",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/robot_container/init_wrist",
+    "type": "boolean",
+    "value": false,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/robot_container/init_intake",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/robot_container/init_leds",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/robot_container/init_limelight ",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/driver/translation_deadband",
+    "type": "double",
+    "value": 0.05,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/driver/steer_deadband",
+    "type": "double",
+    "value": 0.05,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/driver/translation_exponent",
+    "type": "int",
+    "value": 1,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/driver/steer_exponent",
+    "type": "int",
+    "value": 2,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/driver/trigger_threshold",
+    "type": "double",
+    "value": 0.3,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/driver/rumble_strength",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/operator/trigger_threshold",
+    "type": "double",
+    "value": 0.3,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/operator/rumble_strength",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/max_speed (fps)",
+    "type": "double",
+    "value": 11.2,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/ramp_rate_vx (fps)",
+    "type": "double",
+    "value": 30.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/ramp_rate_vy (fps)",
+    "type": "double",
+    "value": 100.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/auto_max_speed (fps)",
+    "type": "double",
+    "value": 9.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/slow_mode_percent",
+    "type": "double",
+    "value": 0.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/max_acceleration (fps_sq)",
+    "type": "double",
+    "value": 8.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/max_deceleration (fps_sq)",
+    "type": "double",
+    "value": 10.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/extrapolation_distance (in)",
+    "type": "double",
+    "value": 8.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/angular_velocity_threshold (deg_per_s)",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/balance/balance_gains/p",
+    "type": "double",
+    "value": 0.05,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/balance/balance_gains/d",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/align_gains/p",
+    "type": "double",
+    "value": 3.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/align_gains/align_tolerance (in)",
+    "type": "double",
+    "value": 0.3,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/balance/angle_threshold (deg)",
+    "type": "double",
+    "value": 0.001,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/balance/balance_max_speed (fps)",
+    "type": "double",
+    "value": 2.8,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/width (in)",
+    "type": "double",
+    "value": 21.75,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/height (in)",
+    "type": "double",
+    "value": 26.75,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/percent_max_omega",
+    "type": "double",
+    "value": 0.45,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/wheel_radius (in)",
+    "type": "double",
+    "value": 1.93,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/bearing_gains/p",
+    "type": "double",
+    "value": 8.3,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/bearing_gains/d",
+    "type": "double",
+    "value": -4.7,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/drive_esc/config/peak_output",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/drive_esc/config/voltage_comp_saturation (V)",
+    "type": "double",
+    "value": 12.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/drive_esc/config/current_limit (A)",
+    "type": "double",
+    "value": 80.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/drive_esc/gains/p",
+    "type": "double",
+    "value": 0.0002,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/drive_esc/gains/i",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/drive_esc/gains/d",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/drive_esc/gains/f",
+    "type": "double",
+    "value": 0.0001769,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/drive_esc/gains/max_integral_accumulator",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/steer_esc/gains/p",
+    "type": "double",
+    "value": 0.12,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/steer_esc/gains/i",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/steer_esc/gains/d",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/steer_esc/gains/f",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/steer_esc/gains/max_integral_accumulator",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/module_FL/cancoder_offset (deg)",
+    "type": "double",
+    "value": 3.6,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/module_FR/cancoder_offset (deg)",
+    "type": "double",
+    "value": 140.6,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/module_BL/cancoder_offset (deg)",
+    "type": "double",
+    "value": 298.47,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/drivetrain/module_BR/cancoder_offset (deg)",
+    "type": "double",
+    "value": 157.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_speeds/up_speed",
+    "type": "double",
+    "value": 0.1,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_speeds/down_speed",
+    "type": "double",
+    "value": -0.2,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/retract_tolerance (deg)",
+    "type": "double",
+    "value": 25.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/min_pivot (deg)",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/retract (deg)",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/min_conveyor (deg)",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/place_position (deg)",
+    "type": "double",
+    "value": 20.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/position_tolerance (deg)",
+    "type": "double",
+    "value": 0.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cone/cone_mid (deg)",
+    "type": "double",
+    "value": 83.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cone/cone_high (deg)",
+    "type": "double",
+    "value": 106.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cone/cone_shelf (deg)",
+    "type": "double",
+    "value": 81.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cone/cone_conveyor (deg)",
+    "type": "double",
+    "value": -8.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/hybrid (deg)",
+    "type": "double",
+    "value": 27.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cone/cone_min_mid (deg)",
+    "type": "double",
+    "value": 83.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cone/cone_min_high (deg)",
+    "type": "double",
+    "value": 84.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cube/cube_mid (deg)",
+    "type": "double",
+    "value": 70.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cube/cube_high (deg)",
+    "type": "double",
+    "value": 94.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cube/cube_shelf (deg)",
+    "type": "double",
+    "value": 85.2,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cube/cube_conveyor (deg)",
+    "type": "double",
+    "value": -9.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cube/cube_min_mid (deg)",
+    "type": "double",
+    "value": 70.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pivot_position/cube/cube_min_high (deg)",
+    "type": "double",
+    "value": 84.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pot_zero_position (deg)",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/pot_zero_voltage (V)",
+    "type": "double",
+    "value": 1.825,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/esc/gains/p",
+    "type": "double",
+    "value": 0.3,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/esc/gains/i",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/esc/gains/d",
+    "type": "double",
+    "value": 0.7,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/esc/gains/f",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/esc/gains/max_integral_accumulator",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/esc/config/peak_output",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/esc/config/voltage_comp_saturation (V)",
+    "type": "double",
+    "value": 10.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/pivot/esc/config/current_limit (A)",
+    "type": "double",
+    "value": 15.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_speeds/extend_speed",
+    "type": "double",
+    "value": 0.4,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_speeds/retract_speed",
+    "type": "double",
+    "value": -0.4,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/retract_position (tr)",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/shelf_position (tr)",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/max_retract_position (tr)",
+    "type": "double",
+    "value": 0.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/max_extension (tr)",
+    "type": "double",
+    "value": 3.12,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/cone/cone_mid_position (tr)",
+    "type": "double",
+    "value": 0.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/cone/cone_high_position (tr)",
+    "type": "double",
+    "value": 3.35,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/cone/cone_conveyor (tr)",
+    "type": "double",
+    "value": 1.3,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/cube/cube_mid_position (tr)",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/cube/cube_high_position (tr)",
+    "type": "double",
+    "value": 1.7,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/cube/cube_conveyor (tr)",
+    "type": "double",
+    "value": 0.3,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/soft_limit (tr)",
+    "type": "double",
+    "value": -0.07,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/telescope_positions/tolerance (tr)",
+    "type": "double",
+    "value": 0.1,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/esc/gains/p",
+    "type": "double",
+    "value": 0.09,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/esc/gains/i",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/esc/gains/d",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/esc/gains/f",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/esc/gains/max_integral_accumulator",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/esc/config/peak_output",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/esc/config/voltage_comp_saturation (V)",
+    "type": "double",
+    "value": 10.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/telescope/esc/config/current_limit (A)",
+    "type": "double",
+    "value": 10.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_positions/stow_position (deg)",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_positions/deploy_psoition (deg)",
+    "type": "double",
+    "value": 190.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_speeds/cube_roller_speed",
+    "type": "double",
+    "value": 0.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_speeds/cone_roller_speed",
+    "type": "double",
+    "value": 0.65,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/reverse_roller_speed",
+    "type": "double",
+    "value": -0.8,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/zero_roller_speed",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/auto_stow",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/stow_pause_position_ (deg)",
+    "type": "double",
+    "value": 130.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/ramp_time (s)",
+    "type": "double",
+    "value": 0.3,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/max_output",
+    "type": "double",
+    "value": 0.8,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/max_output_reverse",
+    "type": "double",
+    "value": -0.4,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_esc/gains/p",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_esc/gains/i",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_esc/gains/d",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_esc/gains/f",
+    "type": "double",
+    "value": 0.0001836491,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_esc/gains/max_integral_accumulator",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_esc/config/peak_output",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_esc/config/voltage_comp_saturation (V)",
+    "type": "double",
+    "value": 12.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/roller_esc/config/current_limit (A)",
+    "type": "double",
+    "value": 40.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_esc/gains/p",
+    "type": "double",
+    "value": 0.55,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_esc/gains/i",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_esc/gains/d",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_esc/gains/f",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_esc/gains/max_integral_accumulator",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_esc/config/peak_output",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_esc/config/voltage_comp_saturation (V)",
+    "type": "double",
+    "value": 10.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/intake/deploy_esc/config/current_limit (A)",
+    "type": "double",
+    "value": 20.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/conveyor/speeds/default_roller_speed",
+    "type": "double",
+    "value": 0.7,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/conveyor/speeds/reverse_roller_speed",
+    "type": "double",
+    "value": -0.7,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/conveyor/speeds/belt_speed",
+    "type": "double",
+    "value": 0.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/conveyor/speeds/differential_speed",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/conveyor/speeds/reverse_belt_speed",
+    "type": "double",
+    "value": -0.7,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/conveyor/should_run",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/current_threshold (A)",
+    "type": "double",
+    "value": 7.5,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/speeds/grab_speed",
+    "type": "double",
+    "value": -0.65,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/speeds/place_speed",
+    "type": "double",
+    "value": 0.9,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/speeds/idle_speed",
+    "type": "double",
+    "value": -0.1,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/should_auto_pickup",
+    "type": "boolean",
+    "value": true,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/esc/config/peak_output",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/esc/config/voltage_comp_saturation (V)",
+    "type": "double",
+    "value": 12.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/esc/config/peak_current_limit (A)",
+    "type": "double",
+    "value": 10.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/esc/config/peak_current_duration (ms)",
+    "type": "double",
+    "value": 500.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/gripper/esc/config/continuous_current_limit (A)",
+    "type": "double",
+    "value": 4.0,
+    "properties": {
+      "persistent": true
+    }
+  }
+]
